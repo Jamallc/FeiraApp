@@ -101,22 +101,25 @@ include '../include/header.php'
     <fieldset>
       <legend>Formulário de cadastro</legend>
       <div class="row">
-        <div class="col-25">
-          <label>Nome:</label>
+        <div class="row col-6">
+          <div class="col-4">
+            <label>Nome:</label>
+          </div>
+          <div class="col-8 form-control">
+            <input type="text" placeholder="digite seu nome">
+          </div>
         </div>
-        <div class="col-75">
-          <input type="text" placeholder="digite seu nome">
+
+        <div class="row col-6">
+          <div class="col-4">
+            <label>Sobrenome:</label>
+          </div>
+          <div class="col-8 form-control">
+            <input type="text" placeholder="digite seu sobrenome">
+          </div>
         </div>
       </div>
 
-      <div class="form-control">
-        <div class="col-25">
-          <label>Sobrenome:</label>
-        </div>
-        <div class="col-75">
-          <input type="text" placeholder="digite seu sobrenome">
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-25">
