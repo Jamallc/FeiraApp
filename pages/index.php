@@ -1,5 +1,5 @@
 <?php
-include './include/header.php'
+include '../include/header.php'
 ?>
 
 <h1>Meu primeiro título</h1>
@@ -19,7 +19,7 @@ include './include/header.php'
 </div>
 <div id="centro">
   <p>
-    <img src="img/noteGamer.jpg" title="Notebook Acer Gamer" alt="notebook gamer">
+    <img src="../img/noteGamer.jpg" title="Notebook Acer Gamer" alt="notebook gamer">
   </p>
 </div>
 <div id="direita">
@@ -93,7 +93,7 @@ include './include/header.php'
 <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.1455185741065!2d-47.892343585145035!3d-15.796279189049995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ae665464fb7%3A0x29d89d9adf83e13f!2sSenac%20Jess%C3%A9%20Freire%20(DF)!5e0!3m2!1spt-BR!2sbr!4v1613996258008!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 <h1>Áudio</h1>
 <audio controls>
-  <source src="" type="audio/mp3">
+  <source src="" type="../audio/mp3">
 </audio>
 <h1>Formulários</h1>
 <div class="container">
@@ -224,5 +224,5 @@ include './include/header.php'
 </div>
 
 <?php
-include './include/footer.php'
+include '../include/footer.php'
 ?>
